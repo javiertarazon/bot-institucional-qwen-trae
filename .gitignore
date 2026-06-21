@@ -1,0 +1,43 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de datos
+**/data/*.duckdb
+**/data/*.db
+**/data/*.csv
+**/data/*.parquet
+
+# Logs
+*.log
+logs/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+
+# Variables de entorno
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archivos grandes de chat
+chat-export-*.json
+project_summary.txt
