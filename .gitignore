@@ -44,3 +44,6 @@ project_summary.txt
 
 # Rust build artifacts
 **/target/
+
+# Backtest reports (optional, but can be large)
+cip-lite/backtest_reports/
