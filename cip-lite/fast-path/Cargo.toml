@@ -1,0 +1,20 @@
+[package]
+name = "cip-fast-path"
+version = "0.1.0"
+edition = "2024"
+description = "CIP Fast Path - Ultra low latency data ingestion in Rust"
+license = "MIT"
+
+[dependencies]
+tokio = { version = "1.43", features = ["full"] }
+reqwest = { version = "0.12", features = ["json", "stream", "rustls-tls"], default-features = false }
+rss = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[dev-dependencies]
+tokio-test = "0.4"
