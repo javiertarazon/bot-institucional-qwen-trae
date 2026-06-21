@@ -2,7 +2,7 @@
 Tests para el módulo Feature Store.
 """
 import pytest
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from services.features.store import FeatureStore
 
 
@@ -35,7 +35,7 @@ class TestFeatureStore:
         )
         
         # Verificar que se puede recuperar
-        one_hour_ago = datetime.utcnow() - timedelta(hours=1)
+        one_hour_ago = datetime.now(timezone.utc).replace(tzinfo=None) - timedelta(hours=1)
         df = store.get_historical("BTC", one_hour_ago)
         assert df is not None
         assert len(df) >= 2

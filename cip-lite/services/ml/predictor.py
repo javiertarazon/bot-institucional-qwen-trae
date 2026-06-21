@@ -5,7 +5,7 @@ Ensemble XGBoost + LSTM para predicción de mercado
 
 import numpy as np
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Tuple, Optional, Any
 import structlog
 from sklearn.preprocessing import MinMaxScaler
@@ -155,7 +155,7 @@ class EnsemblePredictor:
             return {
                 "signal": "HOLD",
                 "confidence": 0.5,
-                "timestamp": datetime.utcnow().isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             }
         
         logger.info("Realizando predicción...")
@@ -185,7 +185,7 @@ class EnsemblePredictor:
             "signal": signal,
             "confidence": float(confidence),
             "model_confidence": float(xgb_pred),
-            "timestamp": datetime.utcnow().isoformat()
+            "timestamp": datetime.now(timezone.utc).isoformat()
         }
 
 

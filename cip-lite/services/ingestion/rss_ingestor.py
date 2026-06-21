@@ -3,7 +3,7 @@ RSS News Ingestion Module
 Ingesta de noticias desde fuentes RSS profesionales.
 """
 import feedparser
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Optional
 import structlog
 from dataclasses import dataclass
@@ -50,7 +50,7 @@ class RSSIngestor:
                 try:
                     published_at = datetime(*entry.published_parsed[:6])
                 except Exception:
-                    published_at = datetime.utcnow()
+                    published_at = datetime.now(timezone.utc).replace(tzinfo=None)
                 
                 article = NewsArticle(
                     title=entry.get("title", ""),

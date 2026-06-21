@@ -73,6 +73,7 @@ class BacktestEngine:
         self.equity_curve: List[float] = []
         self.trades: List[Dict[str, Any]] = []
         self.current_position: Optional[Dict] = None
+        self.position_entries: List[Dict] = []  # Para calcular tiempo de retención
 
     def run(self, data: pd.DataFrame, strategy) -> Dict[str, Any]:
         """Ejecuta el backtesting"""
@@ -104,7 +105,7 @@ class BacktestEngine:
         """Ejecuta una operación con costos y slippage"""
         if signal == 'HOLD':
             return
-        
+
         if signal == 'BUY' and not self.current_position:
             # Abrir posición
             position_size = min(
@@ -116,13 +117,18 @@ class BacktestEngine:
             buy_price = price * (1 + self.config.slippage_pct)
             cost = shares * buy_price
             commission = cost * self.config.commission_rate
-            
+
             self.current_position = {
                 'entry_date': date,
                 'entry_price': buy_price,
                 'shares': shares,
                 'entry_cost': cost + commission
             }
+            # Guardar entrada para tiempo de retención
+            self.position_entries.append({
+                'entry_date': date,
+                'status': 'open'
+            })
             self.trades.append({
                 'type': 'BUY',
                 'date': date,
@@ -131,14 +137,14 @@ class BacktestEngine:
                 'cost': cost + commission
             })
             logger.debug(f"Compra ejecutada: {shares:.2f} @ {buy_price:.2f}")
-        
+
         elif signal == 'SELL' and self.current_position:
             # Cerrar posición
             sell_price = price * (1 - self.config.slippage_pct)
             proceeds = self.current_position['shares'] * sell_price
             commission = proceeds * self.config.commission_rate
             net_proceeds = proceeds - commission
-            
+
             pnl = net_proceeds - self.current_position['entry_cost']
             self.trades.append({
                 'type': 'SELL',
@@ -148,6 +154,13 @@ class BacktestEngine:
                 'proceeds': net_proceeds,
                 'pnl': pnl
             })
+            # Actualizar la última posición abierta
+            if self.position_entries:
+                for entry in reversed(self.position_entries):
+                    if entry['status'] == 'open':
+                        entry['exit_date'] = date
+                        entry['status'] = 'closed'
+                        break
             logger.debug(f"Venta ejecutada: PnL {pnl:.2f}")
             self.current_position = None
 
@@ -170,36 +183,45 @@ class BacktestEngine:
         """Calcula métricas de rendimiento"""
         equity_series = pd.Series(self.equity_curve)
         returns = equity_series.pct_change().dropna()
-        
+
         # Tasa de aciertos
         winning_trades = [t for t in self.trades if t['type'] == 'SELL' and t['pnl'] > 0]
         losing_trades = [t for t in self.trades if t['type'] == 'SELL' and t['pnl'] <= 0]
         win_rate = len(winning_trades) / (len(winning_trades) + len(losing_trades)) if (len(winning_trades) + len(losing_trades)) > 0 else 0
-        
+
         # Rendimiento total y anualizado
         total_return = (self.equity_curve[-1] - self.equity_curve[0]) / self.equity_curve[0]
         n_years = len(returns) / 252  # Asumiendo 252 días/años
-        annualized_return = (1 + total_return) ** (1 / n_years) - 1
-        
+        annualized_return = (1 + total_return) ** (1 / n_years) - 1 if n_years > 0 else 0
+
         # Sharpe y Sortino ratios
         risk_free_rate = 0.03
         excess_returns = returns - risk_free_rate / 252
-        sharpe_ratio = np.sqrt(252) * excess_returns.mean() / excess_returns.std() if excess_returns.std() != 0 else 0
-        
+        sharpe_ratio = np.sqrt(252) * excess_returns.mean() / excess_returns.std() if (len(excess_returns) > 0 and excess_returns.std() != 0) else 0
+
         downside_returns = returns[returns < 0]
         sortino_ratio = np.sqrt(252) * excess_returns.mean() / downside_returns.std() if (downside_returns.std() != 0 and len(downside_returns) > 0) else 0
-        
+
         # Max Drawdown
         cumulative = (1 + returns).cumprod()
         running_max = cumulative.cummax()
         drawdown = (cumulative - running_max) / running_max
-        max_drawdown = drawdown.min()
-        
+        max_drawdown = drawdown.min() if len(drawdown) > 0 else 0
+
         # Ratio de ganancia/pérdida promedio
         avg_win = np.mean([t['pnl'] for t in winning_trades]) if len(winning_trades) > 0 else 0
         avg_loss = abs(np.mean([t['pnl'] for t in losing_trades])) if len(losing_trades) > 0 else 1
         profit_loss_ratio = avg_win / avg_loss if avg_loss != 0 else 0
+
+        # Tiempo medio de retención de posiciones (en días)
+        holding_times = []
+        for entry in self.position_entries:
+            if entry['status'] == 'closed' and 'exit_date' in entry:
+                delta = entry['exit_date'] - entry['entry_date']
+                holding_times.append(delta.days)
         
+        avg_holding_time = np.mean(holding_times) if len(holding_times) > 0 else 0
+
         return {
             'equity_curve': self.equity_curve,
             'total_trades': len([t for t in self.trades if t['type'] == 'SELL']),
@@ -213,7 +235,9 @@ class BacktestEngine:
             'max_drawdown': max_drawdown,
             'profit_loss_ratio': profit_loss_ratio,
             'avg_win': avg_win,
-            'avg_loss': avg_loss
+            'avg_loss': avg_loss,
+            'avg_holding_time_days': avg_holding_time,
+            'holding_times': holding_times
         }
 
 

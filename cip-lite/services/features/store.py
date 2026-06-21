@@ -2,7 +2,7 @@
 Feature Store - Redis + DuckDB
 Almacenamiento dual para features en tiempo real e históricas.
 """
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Any, Optional, Dict
 import json
 import structlog
@@ -73,7 +73,7 @@ class FeatureStore:
         key = f"features:{signal_id}"
         data = {
             "asset": asset,
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
             **{k: str(v) for k, v in features.items()},
         }
         pipe = self.redis.pipeline()
@@ -110,7 +110,10 @@ class FeatureStore:
                       features: Dict[str, float], timestamp: Optional[datetime] = None):
         """Guarda features históricos en DuckDB."""
         if timestamp is None:
-            timestamp = datetime.utcnow()
+            timestamp = datetime.now(timezone.utc).replace(tzinfo=None)
+        # Si es timezone-aware, convertir a naive UTC
+        elif timestamp.tzinfo is not None:
+            timestamp = timestamp.astimezone(timezone.utc).replace(tzinfo=None)
         
         try:
             con = duckdb.connect(self.duckdb_path)
@@ -129,7 +132,13 @@ class FeatureStore:
                       end_time: Optional[datetime] = None) -> Optional[list]:
         """Obtiene features históricos para un activo."""
         if end_time is None:
-            end_time = datetime.utcnow()
+            end_time = datetime.now(timezone.utc).replace(tzinfo=None)
+        # Si es timezone-aware, convertir a naive UTC
+        elif end_time.tzinfo is not None:
+            end_time = end_time.astimezone(timezone.utc).replace(tzinfo=None)
+        # Convertir start_time también si es timezone-aware
+        if start_time.tzinfo is not None:
+            start_time = start_time.astimezone(timezone.utc).replace(tzinfo=None)
         
         try:
             con = duckdb.connect(self.duckdb_path)

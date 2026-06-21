@@ -13,7 +13,7 @@ import hashlib
 import hmac
 import base64
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, Optional, Any
 from functools import wraps
 from dataclasses import dataclass
@@ -109,8 +109,8 @@ class JWTAuth:
         """Genera token JWT"""
         payload = {
             "sub": user_id,
-            "iat": datetime.utcnow().timestamp(),
-            "exp": (datetime.utcnow() + timedelta(hours=self.config.jwt_expiration_hours)).timestamp(),
+            "iat": datetime.now(timezone.utc).timestamp(),
+            "exp": (datetime.now(timezone.utc) + timedelta(hours=self.config.jwt_expiration_hours)).timestamp(),
             "permissions": permissions or []
         }
 
@@ -142,7 +142,7 @@ class JWTAuth:
             payload = json.loads(base64.urlsafe_b64decode(payload_b64 + '=' * (-len(payload_b64) % 4)))
 
             # Verificar expiración
-            if payload["exp"] < datetime.utcnow().timestamp():
+            if payload["exp"] < datetime.now(timezone.utc).timestamp():
                 logger.warning("Token JWT expirado")
                 return None
 
@@ -203,7 +203,7 @@ class AuditLogger:
         """Registra acceso a recursos"""
         self.audit_logger.info(
             "access_log",
-            timestamp=datetime.utcnow().isoformat(),
+            timestamp=datetime.now(timezone.utc).isoformat(),
             user_id=user_id,
             resource=resource,
             action=action,

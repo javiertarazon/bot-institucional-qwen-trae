@@ -43,10 +43,12 @@ class RiskManager:
     def __init__(self, max_position_size: float = 0.1, max_risk_per_trade: float = 0.02):
         self.max_position_size = max_position_size  # % del portafolio
         self.max_risk_per_trade = max_risk_per_trade  # % de riesgo por operación
-        self.daily_loss_limit: float = 0.05  # 5% de pérdida máxima diaria
+        self.daily_loss_limit: float = 0.03  # 3% de pérdida máxima diaria (mejorado)
+        self.max_drawdown_limit: float = 0.10  # 10% de drawdown máximo
         logger.info("Risk Manager inicializado")
     
-    def validate_order(self, order: Order, portfolio_value: float, daily_pnl: float) -> Dict[str, Any]:
+    def validate_order(self, order: Order, portfolio_value: float, daily_pnl: float, 
+                      peak_value: Optional[float] = None) -> Dict[str, Any]:
         """Valida una orden contra las reglas de riesgo"""
         issues = []
         approved = True
@@ -60,6 +62,11 @@ class RiskManager:
         # Verificar pérdida diaria
         if daily_pnl < -portfolio_value * self.daily_loss_limit:
             issues.append("Límite de pérdida diaria alcanzado")
+            approved = False
+        
+        # Verificar drawdown máximo
+        if peak_value is not None and portfolio_value < peak_value * (1 - self.max_drawdown_limit):
+            issues.append("Límite de drawdown máximo alcanzado")
             approved = False
         
         return {
@@ -136,6 +143,7 @@ class Portfolio:
         self.positions: Dict[str, Position] = {}
         self.orders: List[Order] = []
         self.daily_pnl: float = 0.0
+        self.peak_value: float = initial_capital  # Track peak value
         logger.info(f"Portfolio inicializado con ${initial_capital:,.2f}")
     
     @property
@@ -144,7 +152,13 @@ class Portfolio:
         position_value = sum(
             pos.quantity * pos.avg_entry_price for pos in self.positions.values()
         )
-        return self.cash + position_value
+        current_value = self.cash + position_value
+        
+        # Update peak value
+        if current_value > self.peak_value:
+            self.peak_value = current_value
+        
+        return current_value
 
 
 class ExecutionEngine:
@@ -185,7 +199,7 @@ class ExecutionEngine:
         
         # Validar riesgo
         risk_check = self.risk_manager.validate_order(
-            order, self.portfolio.total_value, self.portfolio.daily_pnl
+            order, self.portfolio.total_value, self.portfolio.daily_pnl, self.portfolio.peak_value
         )
         
         if not risk_check["approved"]:

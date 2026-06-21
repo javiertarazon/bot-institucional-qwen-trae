@@ -14,7 +14,7 @@ import structlog
 logger = structlog.get_logger()
 
 try:
-    from pypfopt import EfficientFrontier, risk_models, expected_returns, plotting
+    from pypfopt import EfficientFrontier, risk_models, expected_returns
     HAS_PYPO = True
 except ImportError:
     HAS_PYPO = False

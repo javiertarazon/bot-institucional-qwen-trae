@@ -13,7 +13,11 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import TimeSeriesSplit
 from sklearn.metrics import accuracy_score
 import xgboost as xgb
-from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
+try:
+    from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
+    HAS_HYPEROPT = True
+except ImportError:
+    HAS_HYPEROPT = False
 import structlog
 
 logger = structlog.get_logger()
@@ -59,16 +63,18 @@ class OptimizedXGBPredictor:
         self.feature_engineer = FeatureEngineeringAdvanced()
         self.model = None
         self.is_trained = False
-        self.space = {
-            'n_estimators': hp.quniform('n_estimators', 50, 300, 50),
-            'max_depth': hp.quniform('max_depth', 3, 10, 1),
-            'learning_rate': hp.loguniform('learning_rate', np.log(0.01), np.log(0.3)),
-            'subsample': hp.uniform('subsample', 0.6, 1.0),
-            'colsample_bytree': hp.uniform('colsample_bytree', 0.6, 1.0),
-            'gamma': hp.uniform('gamma', 0.0, 1.0),
-            'reg_alpha': hp.uniform('reg_alpha', 0.0, 1.0),
-            'reg_lambda': hp.uniform('reg_lambda', 0.5, 2.0)
-        }
+        self.space = None
+        if HAS_HYPEROPT:
+            self.space = {
+                'n_estimators': hp.quniform('n_estimators', 50, 300, 50),
+                'max_depth': hp.quniform('max_depth', 3, 10, 1),
+                'learning_rate': hp.loguniform('learning_rate', np.log(0.01), np.log(0.3)),
+                'subsample': hp.uniform('subsample', 0.6, 1.0),
+                'colsample_bytree': hp.uniform('colsample_bytree', 0.6, 1.0),
+                'gamma': hp.uniform('gamma', 0.0, 1.0),
+                'reg_alpha': hp.uniform('reg_alpha', 0.0, 1.0),
+                'reg_lambda': hp.uniform('reg_lambda', 0.5, 2.0)
+            }
         logger.info("OptimizedXGBPredictor inicializado")
 
     def objective(self, params: Dict[str, Any]) -> Dict[str, Any]:

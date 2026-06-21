@@ -41,6 +41,11 @@ docker-compose.override.yml
 .pytest_cache/
 .coverage
 htmlcov/
+*.cover
+
+# Backtest reports
+backtest_reports/
+optimization_results.csv
 
 # OS
 .DS_Store

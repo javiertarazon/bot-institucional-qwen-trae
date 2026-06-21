@@ -67,7 +67,7 @@ class BacktestVisualizer:
 
     def plot_monthly_returns(self, returns: pd.Series):
         """Grafica rendimientos mensuales"""
-        monthly_returns = returns.resample('M').apply(lambda x: (1 + x).prod() - 1)
+        monthly_returns = returns.resample('ME').apply(lambda x: (1 + x).prod() - 1)
         colors = ['#2E86AB' if x >=0 else '#A23B72' for x in monthly_returns]
         
         plt.figure(figsize=(14, 7))
@@ -114,6 +114,7 @@ METRÍCAS DE RENDIMIENTO
 - Ratio Ganancia/Pérdida Promedio: {results['profit_loss_ratio']:.2f}
 - Ganancia promedio por operación ganadora: ${results['avg_win']:.2f}
 - Pérdida promedio por operación perdedora: ${results['avg_loss']:.2f}
+- Tiempo medio de retención de posiciones: {results.get('avg_holding_time_days', 0):.1f} días
 
 ---
 CONCLUSIONES
