@@ -1,0 +1,75 @@
+# docker-compose.yml - Infraestructura cloud-ready CIP
+version: '3.8'
+
+services:
+  # Redis para caché y Feature Store
+  redis:
+    image: redis:7-alpine
+    container_name: cip-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Dashboard Streamlit + Metrics
+  cip-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cip-app
+    ports:
+      - "8501:8501"
+      - "8000:8000"
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=${JWT_SECRET:-dev-secret-change-in-production-123456}
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY}
+      - PROMETHEUS_PORT=8000
+    depends_on:
+      - redis
+    volumes:
+      - ./cip-lite/data:/app/data
+    restart: unless-stopped
+
+  # Prometheus para monitoreo
+  prometheus:
+    image: prom/prometheus:v2.52.0
+    container_name: cip-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+
+  # Grafana para dashboards
+  grafana:
+    image: grafana/grafana:11.0.0
+    container_name: cip-grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./config/grafana/provisioning:/etc/grafana/provisioning
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GRAFANA_USER:-admin}
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD:-admin}
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+  prometheus-data:
+  grafana-data:
