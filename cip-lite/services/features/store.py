@@ -17,10 +17,22 @@ class FeatureStore:
     
     def __init__(self, redis_url: str = "redis://localhost:6379",
                  duckdb_path: str = "./data/features.duckdb"):
-        self.redis = redis.from_url(redis_url, decode_responses=True)
         self.duckdb_path = duckdb_path
+        self.redis_available = False
+        self.redis = None
+        
+        # Intentar conectar a Redis
+        try:
+            self.redis = redis.from_url(redis_url, decode_responses=True)
+            self.redis.ping()
+            self.redis_available = True
+            logger.info("redis_connected")
+        except Exception as e:
+            logger.warning("redis_not_available", error=str(e))
+            self.redis_available = False
+        
         self._init_duckdb()
-        logger.info("feature_store_initialized")
+        logger.info("feature_store_initialized", redis_available=self.redis_available)
     
     def _init_duckdb(self):
         """Inicializa tabla histórica en DuckDB."""
@@ -54,6 +66,10 @@ class FeatureStore:
     def put_online(self, signal_id: str, asset: str,
                    features: Dict[str, float], ttl_seconds: int = 3600):
         """Guarda features en Redis para serving rápido."""
+        if not self.redis_available:
+            logger.warning("redis_not_available_skipping_put_online", signal_id=signal_id)
+            return
+        
         key = f"features:{signal_id}"
         data = {
             "asset": asset,
@@ -68,6 +84,10 @@ class FeatureStore:
     
     def get_online(self, signal_id: str) -> Optional[Dict[str, Any]]:
         """Obtiene features desde Redis (latencia < 1ms)."""
+        if not self.redis_available:
+            logger.warning("redis_not_available_skipping_get_online", signal_id=signal_id)
+            return None
+        
         key = f"features:{signal_id}"
         data = self.redis.hgetall(key)
         if not data:
