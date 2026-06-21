@@ -1,1 +1,0 @@
-/home/jt7ingenieria/Público/proyectos/bot\ trader\ institucional/cip-lite/fast-path/target/release/cip-fast-path: /home/jt7ingenieria/Público/proyectos/bot\ trader\ institucional/cip-lite/fast-path/src/main.rs

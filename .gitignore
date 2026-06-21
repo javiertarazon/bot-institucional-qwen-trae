@@ -41,3 +41,6 @@ Thumbs.db
 # Archivos grandes de chat
 chat-export-*.json
 project_summary.txt
+
+# Rust build artifacts
+**/target/
