@@ -1,15 +1,17 @@
 """
 Cline Brain Integration para CIP Lite v2.0
 Motor de decisión inteligente que usa el agente como cerebro del trading
+con integración ML ONNX para regime detection
 """
 
 import pandas as pd
 import numpy as np
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
 from datetime import datetime
 import structlog
 import json
+import os
 
 from services.strategies.enhanced_strategies import (
     MeanReversionStrategy, 
@@ -18,6 +20,13 @@ from services.strategies.enhanced_strategies import (
     StrategySignal
 )
 from services.risk.dynamic_risk_manager import DynamicRiskManager, AdaptivePositionSizer
+
+try:
+    from python_brain.onnx_classifier import ONNXRegimeClassifier
+    HAS_ONNX = True
+except (ImportError, FileNotFoundError):
+    HAS_ONNX = False
+    logger.warning("ONNX Classifier no disponible - usando detección simple de régimen")
 
 logger = structlog.get_logger()
 
@@ -40,6 +49,7 @@ class ClineBrain:
     """
     Integración del agente Cline como cerebro del trading
     Analiza datos de mercado y genera decisiones inteligentes
+    con integración ML ONNX para regime detection
     """
     
     def __init__(self, risk_manager: DynamicRiskManager = None):
@@ -51,6 +61,22 @@ class ClineBrain:
         }
         self.ensemble = EnsembleStrategy(list(self.strategies.values()))
         self.analysis_history: List[MarketAnalysis] = []
+        
+        # ONNX Regime Classifier
+        self.regime_classifier = None
+        if HAS_ONNX:
+            try:
+                model_path = os.path.join(
+                    os.path.dirname(__file__), 
+                    '..', 
+                    'models', 
+                    'regime_model.onnx'
+                )
+                if os.path.exists(model_path):
+                    self.regime_classifier = ONNXRegimeClassifier(model_path=model_path)
+                    logger.info("ONNX Regime Classifier inicializado")
+            except Exception as e:
+                logger.warning(f"No se pudo cargar ONNX classifier: {e}")
         
     def analyze_market(self, df: pd.DataFrame, symbol: str, 
                        sentiment_score: float = 0.0) -> MarketAnalysis:
@@ -89,6 +115,15 @@ class ClineBrain:
         else:
             volume_profile = 'normal'
         
+        # Régimen de mercado usando ONNX si está disponible
+        ml_regime = None
+        ml_regime_confidence = 0.5
+        if self.regime_classifier:
+            try:
+                ml_regime, ml_regime_confidence = self.regime_classifier.predict_with_confidence(df)
+            except Exception as e:
+                logger.debug(f"ONNX regime prediction failed: {e}")
+        
         # Support/Resistance levels (simples)
         support = [close.min()]
         resistance = [close.max()]
@@ -105,8 +140,28 @@ class ClineBrain:
             timestamp=datetime.now()
         )
         
+        # Agregar información ML al analysis
+        analysis.ml_regime = ml_regime
+        analysis.ml_regime_confidence = ml_regime_confidence
+        
         self.analysis_history.append(analysis)
         return analysis
+    
+    def detect_market_regime(self, df: pd.DataFrame) -> tuple[str, float]:
+        """
+        Detecta el régimen de mercado usando ONNX o fallback.
+        
+        Returns:
+            (regime: str, confidence: float)
+        """
+        if self.regime_classifier:
+            try:
+                return self.regime_classifier.predict_with_confidence(df)
+            except Exception:
+                pass
+        
+        # Fallback a detección simple
+        return "LATERAL", 0.5
     
     def generate_trading_decision(self, df: pd.DataFrame, symbol: str,
                                    sentiment_score: float = 0.0) -> StrategySignal:

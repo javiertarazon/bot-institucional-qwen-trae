@@ -1,6 +1,6 @@
 """
 Módulo de Métricas y Optimización para CIP
-- Prometheus Metrics
+- Prometheus Metrics para trading
 - Caché LRU
 - Monitoreo de Recursos
 """
@@ -8,7 +8,7 @@ Módulo de Métricas y Optimización para CIP
 import time
 import functools
 from collections import OrderedDict
-from typing import Any, Callable, Optional
+from typing import Any, Callable, Optional, Dict
 import psutil
 import structlog
 
@@ -155,6 +155,95 @@ class MetricsCollector:
 
         logger.debug("Métricas de recursos coleccionadas", metrics=metrics)
         return metrics
+
+
+class TradingMetrics:
+    """Métricas específicas de trading para Prometheus"""
+    
+    def __init__(self):
+        # Trading performance gauges
+        self.pnl_gauge: Optional[Gauge] = None
+        self.roi_gauge: Optional[Gauge] = None
+        self.win_rate_gauge: Optional[Gauge] = None
+        self.profit_factor_gauge: Optional[Gauge] = None
+        self.max_drawdown_gauge: Optional[Gauge] = None
+        
+        # Trade counters
+        self.trades_total: Optional[Counter] = None
+        self.winning_trades_counter: Optional[Counter] = None
+        self.losing_trades_counter: Optional[Counter] = None
+        
+        # Streak tracking
+        self.current_win_streak: Optional[Gauge] = None
+        self.current_loss_streak: Optional[Gauge] = None
+        self.max_win_streak: Optional[Gauge] = None
+        self.max_loss_streak: Optional[Gauge] = None
+        
+        # Trade conditions histograms
+        self.trade_conditions_histogram: Optional[Histogram] = None
+        
+        if HAS_PROMETHEUS:
+            self._init_trading_metrics()
+    
+    def _init_trading_metrics(self):
+        """Inicializa métricas de trading"""
+        self.pnl_gauge = Gauge('cip_pnl_usd', 'Profit & Loss en USD')
+        self.roi_gauge = Gauge('cip_roi_percent', 'Return on Investment porcentual')
+        self.win_rate_gauge = Gauge('cip_win_rate', 'Tasa de aciertos (win rate)')
+        self.profit_factor_gauge = Gauge('cip_profit_factor', 'Ratio de beneficio')
+        self.max_drawdown_gauge = Gauge('cip_max_drawdown', 'Máximo drawdown')
+        
+        self.trades_total = Counter('cip_trades_total', 'Total de operaciones', ['status'])
+        self.winning_trades_counter = Counter('cip_winning_trades_total', 'Operaciones ganadoras')
+        self.losing_trades_counter = Counter('cip_losing_trades_total', 'Operaciones perdedoras')
+        
+        self.current_win_streak = Gauge('cip_current_win_streak', 'Racha actual de ganadoras')
+        self.current_loss_streak = Gauge('cip_current_loss_streak', 'Racha actual de perdedoras')
+        self.max_win_streak = Gauge('cip_max_win_streak', 'Máxima racha de ganadoras')
+        self.max_loss_streak = Gauge('cip_max_loss_streak', 'Máxima racha de perdedoras')
+        
+        self.trade_conditions_histogram = Histogram(
+            'cip_trade_conditions',
+            'Condiciones de operaciones (volatilidad, confianza)',
+            ['outcome']
+        )
+    
+    def update_from_backtest_results(self, results: Dict[str, Any]):
+        """Actualiza métricas desde resultados de backtesting"""
+        if not HAS_PROMETHEUS:
+            return
+        
+        self.pnl_gauge.set(results.get('equity_curve', [0])[-1] - 100000)
+        roi = results.get('total_return', 0) * 100
+        self.roi_gauge.set(roi)
+        
+        win_rate = results.get('win_rate', 0)
+        self.win_rate_gauge.set(win_rate)
+        
+        self.profit_factor_gauge.set(results.get('profit_factor', 0))
+        self.max_drawdown_gauge.set(abs(results.get('max_drawdown', 0)) * 100)
+        
+        # Streaks
+        self.current_win_streak.set(results.get('current_win_streak', 0))
+        self.current_loss_streak.set(results.get('current_loss_streak', 0))
+        self.max_win_streak.set(results.get('max_win_streak', 0))
+        self.max_loss_streak.set(results.get('max_loss_streak', 0))
+    
+    def record_trade(self, is_winner: bool, pnl: float, conditions: Dict[str, float] = None):
+        """Registra una operación completada"""
+        if not HAS_PROMETHEUS:
+            return
+        
+        status = "win" if is_winner else "loss"
+        self.trades_total.labels(status=status).inc()
+        
+        if is_winner:
+            self.winning_trades_counter.inc()
+        else:
+            self.losing_trades_counter.inc()
+        
+        if conditions and self.trade_conditions_histogram:
+            self.trade_conditions_histogram.labels(outcome=status).observe(conditions.get('volatility', 0))
 
 
 class OptimizedFeatureStore:
