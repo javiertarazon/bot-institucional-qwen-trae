@@ -1,42 +1,40 @@
-# Integración Final - CIP-Lite v2.0
+# Integración Final - CIP-Lite v3.0 (Prop-Scalping Edition)
 
 ## ✅ Estado del Proyecto
 
-El análisis del chat exportado y la integración de funcionalidades al proyecto bot ha sido **completada exitosamente**.
+El análisis del chat exportado y la integración de funcionalidades avanzadas ha sido **completada exitosamente**.
 
 ---
 
-## 📦 Arquitectura Modular Implementada
+## 📦 Arquitectura Modular Actualizada
 
-### Estructura Final
+### Estructura v3.0
 ```
 cip-lite/
-├── ARCHITECTURE.md                 # Documentación de arquitectura
-├── INTEGRACION_FINAL.md            # Este archivo
 ├── main.py                         # Punto de entrada principal
 ├── src/
-│   ├── __init__.py
-│   └── modules/                    # 8 módulos implementados
+│   └── modules/                    # 10 módulos implementados
 │       ├── data_ingestion/         # 01 - Recolección de datos
-│       │   └── market_data.py
+│       │   ├── market_data.py
+│       │   └── macro_filter.py     # 🆕 Filtro de noticias
+│       ├── microstructure_engine/    # 🆕 Motor de Order Flow
+│       │   ├── engine.py           # CVD, OBI, Trade Intensity
+│       │   └── whale_tracker.py    # Detección de ballenas
 │       ├── indicator_engine/       # 02 - Indicadores técnicos
-│       │   └── indicators.py
 │       ├── signal_memory/          # 03 - Memoria de trading
-│       │   └── memory.py
 │       ├── data_processor/         # 04 - Procesamiento de datos
-│       │   └── processor.py
-│       ├── risk_manager/           # 06 - Gestión de riesgo
-│       │   └── risk_manager.py
+│       ├── risk_manager/           # 06 - Gestión de riesgo (actualizado)
 │       ├── execution_engine/       # 07 - Ejecución de órdenes
-│       │   └── execution.py
 │       ├── orchestrator/           # 08 - Orquestador central
-│       │   └── orchestrator.py
-│       └── brain_cline/            # 09 - Cerebro Cline
-│           └── brain.py
-├── services/                       # Código legacy (reutilizable)
-├── data/                           # Datos históricos
-├── tests/                          # Tests existentes
-├── ui/                             # Interfaz Streamlit
+│       └── brain_cline/            # 09 - Cerebro Cline (v3.0)
+├── services/
+│   └── alerting/                   # 🆕 Sistema de alertas
+│       └── telegram_notifier.py
+├── mcp_server/                     # 🆕 Servidor MCP para Cline
+│   └── server.py
+├── data/
+├── tests/
+├── ui/
 └── ...
 ```
 
@@ -147,6 +145,43 @@ python main.py
 - `services/risk/dynamic_risk_manager.py` → Extendido en Risk Manager
 - `services/cline_brain.py` → Refactorizado en Brain Cline
 - `services/backtesting/` → Pendiente de migración
+
+---
+
+## 🆕 Nuevas Funcionalidades del Chat (v3.0)
+
+| Funcionalidad | Estado | Archivo |
+|--------------|--------|---------|
+| **Microstructure Engine** | ✅ IMPLEMENTADO | `microstructure_engine/engine.py` |
+| - CVD (Cumulative Volume Delta) | ✅ | Calcula desequilibrios de liquidez |
+| - OBI (Order Book Imbalance) | ✅ | Mide presión bid/ask |
+| - Trade Intensity metrics | ✅ | Trades por segundo |
+| **Whale Tracker** | ✅ IMPLEMENTADO | `microstructure_engine/whale_tracker.py` |
+| - Detección trades > 95% percentile | ✅ | Identifica ballenas |
+| - Absorción bullish/bearish | ✅ | Señal de reversión |
+| **MCP Server** | ✅ IMPLEMENTADO | `mcp_server/server.py` |
+| - get_scalping_state() tool | ✅ | Estado en tiempo real para Cline |
+| - execute_prop_scalp() tool | ✅ | Ejecución optimizada |
+| **Macro Filter** | ✅ IMPLEMENTADO | `data_ingestion/macro_filter.py` |
+| - Blackout 15 min eventos high impact | ✅ | Evita operar en CPI/FOMC/NFP |
+| **Telegram Alerts** | ✅ IMPLEMENTADO | `services/alerting/telegram_notifier.py` |
+| - Circuit breaker notifications | ✅ | Alertas críticas |
+| - Trade execution notifications | ✅ | Confirmación de órdenes |
+
+---
+
+## 🔧 Instalación de Dependencias Nuevas
+
+```bash
+# Para microestructura y scalping
+pip install polars httpx
+
+# Para MCP (opcional, si usas Cline como agente)
+pip install mcp
+
+# Para ML alternativo (si prefieres LightGBM sobre ONNX)
+pip install lightgbm
+```
 
 ---
 

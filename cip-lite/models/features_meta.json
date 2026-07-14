@@ -1,0 +1,20 @@
+{
+  "feature_names": [
+    "rsi_14",
+    "rsi_delta",
+    "atr_ratio",
+    "ema_9_21_dist",
+    "candle_body_pct",
+    "volume_ratio",
+    "bb_position",
+    "adx",
+    "macd_hist",
+    "stoch_k"
+  ],
+  "num_features": 10,
+  "forward_periods": 5,
+  "return_threshold": 0.005,
+  "train_split": 0.7,
+  "training_date": "2026-07-13T16:24:48.176900",
+  "description": "Features t\u00e9cnicas para clasificaci\u00f3n de r\u00e9gimen de mercado"
+}
