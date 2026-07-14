@@ -1,0 +1,6664 @@
+[
+  {
+    "trades": [
+      {
+        "timestamp": "2026-04-22 05:00:00",
+        "entry": 76423.69,
+        "exit": 77628.46714285715,
+        "type": "SELL",
+        "pnl_pct": -1.5764446114249955,
+        "pnl_net": -1.5732917222021454,
+        "exit_reason": "SL",
+        "capital": 9842.670827779786
+      },
+      {
+        "timestamp": "2026-04-22 15:00:00",
+        "entry": 77994.93,
+        "exit": 79251.07142857142,
+        "type": "SELL",
+        "pnl_pct": -1.61054241419465,
+        "pnl_net": -1.6073213293662607,
+        "exit_reason": "SL",
+        "capital": 9684.46748018557
+      },
+      {
+        "timestamp": "2026-04-23 03:00:00",
+        "entry": 79272.9,
+        "exit": 77816.67857142857,
+        "type": "SELL",
+        "pnl_pct": 1.8369725701613402,
+        "pnl_net": 1.8332986250210175,
+        "exit_reason": "TP",
+        "capital": 9862.012689340421
+      },
+      {
+        "timestamp": "2026-04-27 05:00:00",
+        "entry": 79308.6,
+        "exit": 77934.6,
+        "type": "SELL",
+        "pnl_pct": 1.7324728970124297,
+        "pnl_net": 1.729007951218405,
+        "exit_reason": "TP",
+        "capital": 10032.527672889284
+      },
+      {
+        "timestamp": "2026-04-29 16:00:00",
+        "entry": 76743.24,
+        "exit": 75849.22571428573,
+        "type": "BUY",
+        "pnl_pct": -1.1649420661862573,
+        "pnl_net": -1.1626121820538848,
+        "exit_reason": "SL",
+        "capital": 9915.888283996346
+      },
+      {
+        "timestamp": "2026-05-01 03:00:00",
+        "entry": 75513.91,
+        "exit": 77088.295,
+        "type": "BUY",
+        "pnl_pct": 2.084894028133353,
+        "pnl_net": 2.0807242400770862,
+        "exit_reason": "TP",
+        "capital": 10122.210575140421
+      },
+      {
+        "timestamp": "2026-05-01 12:00:00",
+        "entry": 77131.08,
+        "exit": 77787.72714285714,
+        "type": "SELL",
+        "pnl_pct": -0.8513392303817585,
+        "pnl_net": -0.849636551920995,
+        "exit_reason": "SL",
+        "capital": 10036.208574231616
+      },
+      {
+        "timestamp": "2026-05-04 01:00:00",
+        "entry": 78737.25,
+        "exit": 79585.61,
+        "type": "SELL",
+        "pnl_pct": -1.0774569850991755,
+        "pnl_net": -1.0753020711289771,
+        "exit_reason": "SL",
+        "capital": 9928.289015570079
+      },
+      {
+        "timestamp": "2026-05-04 11:00:00",
+        "entry": 80173.3,
+        "exit": 78831.46428571428,
+        "type": "SELL",
+        "pnl_pct": 1.673669057261866,
+        "pnl_net": 1.6703217191473423,
+        "exit_reason": "TP",
+        "capital": 10094.123383336866
+      },
+      {
+        "timestamp": "2026-05-06 08:00:00",
+        "entry": 80970.0,
+        "exit": 81856.56428571428,
+        "type": "SELL",
+        "pnl_pct": -1.094929338908585,
+        "pnl_net": -1.092739480230768,
+        "exit_reason": "SL",
+        "capital": 9983.820911943938
+      },
+      {
+        "timestamp": "2026-05-10 15:00:00",
+        "entry": 79879.99,
+        "exit": 81228.205,
+        "type": "BUY",
+        "pnl_pct": 1.6878006619680304,
+        "pnl_net": 1.6844250606440943,
+        "exit_reason": "TP",
+        "capital": 10151.990893394548
+      },
+      {
+        "timestamp": "2026-05-10 20:00:00",
+        "entry": 81476.18,
+        "exit": 80859.94785714286,
+        "type": "SELL",
+        "pnl_pct": 0.7563341124450489,
+        "pnl_net": 0.7548214442201588,
+        "exit_reason": "TP",
+        "capital": 10228.62029767317
+      },
+      {
+        "timestamp": "2026-05-11 03:00:00",
+        "entry": 82210.07,
+        "exit": 80890.13642857144,
+        "type": "SELL",
+        "pnl_pct": 1.6055619116107915,
+        "pnl_net": 1.60235078778757,
+        "exit_reason": "TP",
+        "capital": 10392.518675592733
+      },
+      {
+        "timestamp": "2026-05-12 16:00:00",
+        "entry": 80666.37,
+        "exit": 80058.17285714285,
+        "type": "BUY",
+        "pnl_pct": -0.7539661730869276,
+        "pnl_net": -0.7524582407407537,
+        "exit_reason": "SL",
+        "capital": 10314.319312397714
+      },
+      {
+        "timestamp": "2026-05-13 02:00:00",
+        "entry": 80000.01,
+        "exit": 81026.13642857142,
+        "type": "BUY",
+        "pnl_pct": 1.2826578753820503,
+        "pnl_net": 1.2800925596312862,
+        "exit_reason": "TP",
+        "capital": 10446.35214649233
+      },
+      {
+        "timestamp": "2026-05-14 14:00:00",
+        "entry": 78827.21,
+        "exit": 80043.92000000001,
+        "type": "BUY",
+        "pnl_pct": 1.5435152404861294,
+        "pnl_net": 1.5404282100051572,
+        "exit_reason": "TP",
+        "capital": 10607.270701873376
+      },
+      {
+        "timestamp": "2026-05-15 13:00:00",
+        "entry": 81301.23,
+        "exit": 79845.59357142857,
+        "type": "SELL",
+        "pnl_pct": 1.7904236240600822,
+        "pnl_net": 1.786842776811962,
+        "exit_reason": "TP",
+        "capital": 10796.805952226692
+      },
+      {
+        "timestamp": "2026-05-17 01:00:00",
+        "entry": 78758.59,
+        "exit": 77749.35428571429,
+        "type": "BUY",
+        "pnl_pct": -1.281429383494178,
+        "pnl_net": -1.2788665247271895,
+        "exit_reason": "SL",
+        "capital": 10658.729215163912
+      },
+      {
+        "timestamp": "2026-05-22 19:00:00",
+        "entry": 76924.65,
+        "exit": 76123.6257142857,
+        "type": "BUY",
+        "pnl_pct": -1.0413102766334166,
+        "pnl_net": -1.0392276560801497,
+        "exit_reason": "SL",
+        "capital": 10547.960753373234
+      },
+      {
+        "timestamp": "2026-05-23 07:00:00",
+        "entry": 75860.44,
+        "exit": 75125.5142857143,
+        "type": "BUY",
+        "pnl_pct": -0.9687865167743682,
+        "pnl_net": -0.9668489437408195,
+        "exit_reason": "SL",
+        "capital": 10445.97790624305
+      },
+      {
+        "timestamp": "2026-05-23 18:00:00",
+        "entry": 74609.36,
+        "exit": 75767.615,
+        "type": "BUY",
+        "pnl_pct": 1.5524258618489752,
+        "pnl_net": 1.5493210101252772,
+        "exit_reason": "TP",
+        "capital": 10607.819636657518
+      },
+      {
+        "timestamp": "2026-05-26 17:00:00",
+        "entry": 77287.58,
+        "exit": 75994.385,
+        "type": "SELL",
+        "pnl_pct": 1.673224857085714,
+        "pnl_net": 1.6698784073715425,
+        "exit_reason": "TP",
+        "capital": 10784.95732626298
+      },
+      {
+        "timestamp": "2026-05-27 07:00:00",
+        "entry": 75749.02,
+        "exit": 75977.17,
+        "type": "BUY",
+        "pnl_pct": 0.3011920154214459,
+        "pnl_net": 0.300589631390603,
+        "exit_reason": "CLOSE",
+        "capital": 10817.375789735628
+      }
+    ],
+    "equity_curve": [
+      10547.960753373234,
+      10547.960753373234,
+      10547.960753373234,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10445.97790624305,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10607.819636657518,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298,
+      10784.95732626298
+    ],
+    "signals_history": [
+      {
+        "timestamp": "2026-04-19 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.43417721518987346,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-19 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.47332398519483615,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-19 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4751993637849502,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-19 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.48166854562358496,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5029326648144437,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5026466287558997,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.47433026430062153,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 17:00:00",
+        "signal": "SELL",
+        "confidence": 0.4732233875688978,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-20 18:00:00",
+        "signal": "SELL",
+        "confidence": 0.731708550472318,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-20 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4760808972308725,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-20 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.47719092542582087,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-20 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5023928886067843,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-20 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.502876923489259,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-20 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5027361909846106,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.43417721518987346,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.47055253115271883,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 19:00:00",
+        "signal": "BUY",
+        "confidence": 0.45626135736156137,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-21 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 02:00:00",
+        "signal": "SELL",
+        "confidence": 0.584075891646208,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.47051494582335057,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.47163120381524837,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 05:00:00",
+        "signal": "SELL",
+        "confidence": 0.7708918922066472,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4178507015078091,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 07:00:00",
+        "signal": "SELL",
+        "confidence": 0.46420662498875653,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 08:00:00",
+        "signal": "SELL",
+        "confidence": 0.45629797723316246,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 09:00:00",
+        "signal": "SELL",
+        "confidence": 0.4967740279793293,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 10:00:00",
+        "signal": "SELL",
+        "confidence": 0.5018121651779474,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 11:00:00",
+        "signal": "SELL",
+        "confidence": 0.5005544197874288,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 12:00:00",
+        "signal": "SELL",
+        "confidence": 0.49436262269834,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 13:00:00",
+        "signal": "SELL",
+        "confidence": 0.46399306228167186,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 14:00:00",
+        "signal": "SELL",
+        "confidence": 0.4581830938236592,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 15:00:00",
+        "signal": "SELL",
+        "confidence": 0.46416871372280044,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 16:00:00",
+        "signal": "SELL",
+        "confidence": 0.47514590102180626,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 17:00:00",
+        "signal": "SELL",
+        "confidence": 0.4706216830784201,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 18:00:00",
+        "signal": "SELL",
+        "confidence": 0.4715591390086531,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5042779545926874,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-22 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-23 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4218181818181818,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-23 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-23 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.42368421052631583,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-23 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.42368421052631583,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5019650057626023,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5040626388611018,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4832108444836526,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4218181818181818,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-23 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-24 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-25 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.42608695652173917,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44067796610169496,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44067796610169496,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-26 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 00:00:00",
+        "signal": "SELL",
+        "confidence": 0.7019880108571248,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 01:00:00",
+        "signal": "SELL",
+        "confidence": 0.6986314649055732,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5035782215691276,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5020357059955374,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.428448275862069,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.42368421052631583,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.42368421052631583,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.42368421052631583,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 15:00:00",
+        "signal": "BUY",
+        "confidence": 0.7766648711260091,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 16:00:00",
+        "signal": "BUY",
+        "confidence": 0.47219869785145085,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-27 17:00:00",
+        "signal": "BUY",
+        "confidence": 0.4609757455295913,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4878059828520779,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.46584968601217835,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 20:00:00",
+        "signal": "BUY",
+        "confidence": 0.45819869969470306,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 21:00:00",
+        "signal": "BUY",
+        "confidence": 0.4614109042926862,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-27 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 14:00:00",
+        "signal": "BUY",
+        "confidence": 0.6803209161395364,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-28 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5167994357750314,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 04:00:00",
+        "signal": "SELL",
+        "confidence": 0.7438504141828602,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 05:00:00",
+        "signal": "SELL",
+        "confidence": 0.7789023289259012,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 09:00:00",
+        "signal": "SELL",
+        "confidence": 0.800272436796206,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4844741598305763,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5042513316522248,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4218181818181818,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4272727272727273,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4789433376968204,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4829744107893629,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-29 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4224669603524229,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-04-29 18:00:00",
+        "signal": "BUY",
+        "confidence": 0.5282123826674273,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4883228927213614,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 20:00:00",
+        "signal": "BUY",
+        "confidence": 0.4667100626034364,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.49074735908547873,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4898297368506868,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-29 23:00:00",
+        "signal": "BUY",
+        "confidence": 0.45955353362024504,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5040543718685553,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 04:00:00",
+        "signal": "BUY",
+        "confidence": 0.45724975165563586,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4272727272727273,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4248908296943232,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-04-30 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.508231796585734,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 03:00:00",
+        "signal": "SELL",
+        "confidence": 0.7454836016447156,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5019248414963754,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 08:00:00",
+        "signal": "SELL",
+        "confidence": 0.6968512773759107,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.502554408044231,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 12:00:00",
+        "signal": "SELL",
+        "confidence": 0.7062514519106967,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-01 13:00:00",
+        "signal": "SELL",
+        "confidence": 0.9116438987956083,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4654807555697534,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.47098738182208816,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 16:00:00",
+        "signal": "SELL",
+        "confidence": 0.45990925701801627,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 17:00:00",
+        "signal": "SELL",
+        "confidence": 0.4781270417781319,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 18:00:00",
+        "signal": "SELL",
+        "confidence": 0.4720106054998496,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5048218745375355,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-01 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.43608610530851727,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-02 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4248908296943232,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 22:00:00",
+        "signal": "SELL",
+        "confidence": 0.47621218193224807,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-03 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4218181818181818,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4594114770407482,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 02:00:00",
+        "signal": "SELL",
+        "confidence": 0.7141809756479351,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 03:00:00",
+        "signal": "SELL",
+        "confidence": 0.7204281349003016,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4615247371087943,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5036049914822244,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.49078565805158436,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.42282608695652174,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-04 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4224669603524229,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4591735579797422,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44390243902439025,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-04 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-05 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-05 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-05 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5032917972642087,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-05 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.46676255090623653,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-05 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.46466259404323335,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-05 05:00:00",
+        "signal": "SELL",
+        "confidence": 0.4590220980856304,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5043995049149762,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5028224384470028,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4562527506914104,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5034976112613332,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-05 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-06 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45718476299872596,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4609596103926461,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-06 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5028228864343527,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45890568143766,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 15:00:00",
+        "signal": "BUY",
+        "confidence": 0.6764990535577956,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4591841751184505,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-07 20:00:00",
+        "signal": "BUY",
+        "confidence": 0.4553039096600942,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-07 21:00:00",
+        "signal": "BUY",
+        "confidence": 0.4597423809771242,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-07 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-07 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5028704417857697,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 02:00:00",
+        "signal": "BUY",
+        "confidence": 0.45636055065401365,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4218181818181818,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-08 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.510265170855543,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-09 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 15:00:00",
+        "signal": "SELL",
+        "confidence": 0.5577032329459577,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-10 16:00:00",
+        "signal": "SELL",
+        "confidence": 0.5353271963836199,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-10 17:00:00",
+        "signal": "SELL",
+        "confidence": 0.5486835841919496,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5165437241899962,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-10 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4218181818181818,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-10 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-10 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.46088092291466654,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-10 23:00:00",
+        "signal": "SELL",
+        "confidence": 0.6808454328452149,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-11 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44067796610169496,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-11 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-11 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-11 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-11 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-12 10:00:00",
+        "signal": "BUY",
+        "confidence": 0.5260468506862251,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 13:00:00",
+        "signal": "BUY",
+        "confidence": 0.7995424772215924,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 15:00:00",
+        "signal": "BUY",
+        "confidence": 0.7269352107951386,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 16:00:00",
+        "signal": "BUY",
+        "confidence": 0.7418344522863528,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-12 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45782973112573677,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4589443786204075,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-13 15:00:00",
+        "signal": "BUY",
+        "confidence": 0.8506518599000331,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 16:00:00",
+        "signal": "BUY",
+        "confidence": 0.5802436948785826,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 17:00:00",
+        "signal": "BUY",
+        "confidence": 0.4596502528291591,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.49226867944466174,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4905154230112736,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.49183646752890936,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 21:00:00",
+        "signal": "BUY",
+        "confidence": 0.46455788162073364,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5045479100374367,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-13 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5049506924264804,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5033275489085179,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4852225988370941,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-14 15:00:00",
+        "signal": "SELL",
+        "confidence": 0.7652920727696441,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 16:00:00",
+        "signal": "SELL",
+        "confidence": 0.8646560853324377,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 17:00:00",
+        "signal": "SELL",
+        "confidence": 0.8508883898547968,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 18:00:00",
+        "signal": "SELL",
+        "confidence": 0.4625961704720876,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 19:00:00",
+        "signal": "SELL",
+        "confidence": 0.4823467167857537,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 20:00:00",
+        "signal": "SELL",
+        "confidence": 0.4779980367888721,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 21:00:00",
+        "signal": "SELL",
+        "confidence": 0.4745869430649994,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 22:00:00",
+        "signal": "SELL",
+        "confidence": 0.47049843339438796,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-14 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 00:00:00",
+        "signal": "SELL",
+        "confidence": 0.4619873451372327,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 13:00:00",
+        "signal": "BUY",
+        "confidence": 0.8736595595771525,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 14:00:00",
+        "signal": "BUY",
+        "confidence": 0.8385789552081115,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 15:00:00",
+        "signal": "BUY",
+        "confidence": 0.7658633724731404,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 16:00:00",
+        "signal": "BUY",
+        "confidence": 0.789322321725251,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 17:00:00",
+        "signal": "BUY",
+        "confidence": 0.4558258661743423,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 18:00:00",
+        "signal": "BUY",
+        "confidence": 0.477930663128119,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 19:00:00",
+        "signal": "BUY",
+        "confidence": 0.4752120432642587,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 20:00:00",
+        "signal": "BUY",
+        "confidence": 0.4660509212253535,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 21:00:00",
+        "signal": "BUY",
+        "confidence": 0.4657493510669352,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.503307685925265,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-15 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5040826796818839,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5023825912016638,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.459781410825983,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 09:00:00",
+        "signal": "BUY",
+        "confidence": 0.6992519423556999,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 10:00:00",
+        "signal": "BUY",
+        "confidence": 0.7295505911309784,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 11:00:00",
+        "signal": "BUY",
+        "confidence": 0.8218395712092176,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 12:00:00",
+        "signal": "BUY",
+        "confidence": 0.818985293077058,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 13:00:00",
+        "signal": "BUY",
+        "confidence": 0.8071134388127345,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-16 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-17 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-17 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5079075700272759,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4272727272727273,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-17 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44242424242424244,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-18 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4576706409828676,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-18 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4626776788179592,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-18 02:00:00",
+        "signal": "BUY",
+        "confidence": 0.6937248698067442,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-18 03:00:00",
+        "signal": "BUY",
+        "confidence": 0.6998855398351276,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 04:00:00",
+        "signal": "BUY",
+        "confidence": 0.7864184299827934,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 05:00:00",
+        "signal": "BUY",
+        "confidence": 0.791280635311428,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 06:00:00",
+        "signal": "BUY",
+        "confidence": 0.45500170504416043,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5021517858492911,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5041780041306717,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 14:00:00",
+        "signal": "BUY",
+        "confidence": 0.6752458617795497,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4578495555721632,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44390243902439025,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-18 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-19 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4272727272727273,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5120259703815206,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5079512314436785,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-20 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4248908296943232,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4248908296943232,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4248908296943232,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-21 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 14:00:00",
+        "signal": "BUY",
+        "confidence": 0.664713419454024,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44390243902439025,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.502888003616997,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 19:00:00",
+        "signal": "BUY",
+        "confidence": 0.8784081804817767,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 20:00:00",
+        "signal": "BUY",
+        "confidence": 0.7389626814006178,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 21:00:00",
+        "signal": "BUY",
+        "confidence": 0.7490569865663569,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 22:00:00",
+        "signal": "BUY",
+        "confidence": 0.7578519750273169,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-22 23:00:00",
+        "signal": "BUY",
+        "confidence": 0.7627536888654253,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 00:00:00",
+        "signal": "BUY",
+        "confidence": 0.7693675474212568,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 01:00:00",
+        "signal": "BUY",
+        "confidence": 0.8197162928771577,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 02:00:00",
+        "signal": "BUY",
+        "confidence": 0.4646844311700287,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 03:00:00",
+        "signal": "BUY",
+        "confidence": 0.45716769308305716,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 04:00:00",
+        "signal": "BUY",
+        "confidence": 0.459982701010462,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 05:00:00",
+        "signal": "BUY",
+        "confidence": 0.4624955236504609,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 06:00:00",
+        "signal": "BUY",
+        "confidence": 0.45760664455250516,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 07:00:00",
+        "signal": "BUY",
+        "confidence": 0.7702389901627474,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 08:00:00",
+        "signal": "BUY",
+        "confidence": 0.7495764932518797,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 09:00:00",
+        "signal": "BUY",
+        "confidence": 0.7560379611719789,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4667130307275241,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5038593330673902,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5044047834859682,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-23 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5019179642912689,
+        "regime": "LATERAL",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-23 20:00:00",
+        "signal": "SELL",
+        "confidence": 0.7657984255614907,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 21:00:00",
+        "signal": "SELL",
+        "confidence": 0.4553529479464457,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 22:00:00",
+        "signal": "SELL",
+        "confidence": 0.46415996393927234,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-23 23:00:00",
+        "signal": "SELL",
+        "confidence": 0.4776380399465943,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 00:00:00",
+        "signal": "SELL",
+        "confidence": 0.45652664062306997,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 01:00:00",
+        "signal": "SELL",
+        "confidence": 0.49365320910283833,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 02:00:00",
+        "signal": "SELL",
+        "confidence": 0.4780561899109717,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 03:00:00",
+        "signal": "SELL",
+        "confidence": 0.46132202570208564,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 04:00:00",
+        "signal": "SELL",
+        "confidence": 0.45893573601484366,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5047211459473689,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 06:00:00",
+        "signal": "SELL",
+        "confidence": 0.46370871242785455,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5025361338452419,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-24 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5023716632387482,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4459677419354839,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 22:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-25 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4272727272727273,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4272727272727273,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5187841234584676,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 08:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 09:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 10:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44067796610169496,
+        "regime": "TRENDING_UP",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 11:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 12:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 13:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "LATERAL",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 14:00:00",
+        "signal": "HOLD",
+        "confidence": 0.448,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 15:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4519685039370079,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 16:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 17:00:00",
+        "signal": "HOLD",
+        "confidence": 0.45995056946465057,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-26 18:00:00",
+        "signal": "HOLD",
+        "confidence": 0.46391972875453846,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-26 19:00:00",
+        "signal": "HOLD",
+        "confidence": 0.44390243902439025,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-26 20:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-26 21:00:00",
+        "signal": "HOLD",
+        "confidence": 0.502227045111798,
+        "regime": "TRENDING_DOWN",
+        "in_position": false
+      },
+      {
+        "timestamp": "2026-05-26 22:00:00",
+        "signal": "BUY",
+        "confidence": 0.4567532623253297,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-26 23:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5019480861393251,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 00:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 01:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 02:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 03:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5041888631907222,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 04:00:00",
+        "signal": "HOLD",
+        "confidence": 0.5043001709187583,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 05:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 06:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      },
+      {
+        "timestamp": "2026-05-27 07:00:00",
+        "signal": "HOLD",
+        "confidence": 0.4,
+        "regime": "TRENDING_DOWN",
+        "in_position": true
+      }
+    ],
+    "metrics": {
+      "total_trades": 23,
+      "winning_trades": 13,
+      "losing_trades": 10,
+      "win_rate": 0.5652173913043478,
+      "total_return_pct": 7.849573262629805,
+      "final_capital": 10784.95732626298,
+      "max_drawdown_pct": 3.249368818296572,
+      "profit_factor": 1.7092105302032332,
+      "sharpe_ratio": 0.6107700125629164,
+      "calmar_ratio": 21.161728823594913,
+      "avg_rr": NaN,
+      "expectancy": 0.3514694661417197,
+      "avg_win_pct": 1.4986232633424232,
+      "avg_loss_pct": -1.1398304702191946,
+      "strategy_breakdown": {},
+      "largest_win": 2.0807242400770862,
+      "largest_loss": -1.6073213293662607,
+      "consecutive_wins": 3,
+      "consecutive_losses": 3
+    },
+    "symbol": "BTC/USDT",
+    "period": "2026-04-15 16:00:00 to 2026-05-27 07:00:00",
+    "data_source": "synthetic"
+  }
+]

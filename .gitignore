@@ -1,49 +1,10 @@
-# Entorno virtual
-venv/
-env/
-.venv/
-
-# Archivos de datos
-**/data/*.duckdb
-**/data/*.db
-**/data/*.csv
-**/data/*.parquet
-
-# Logs
-*.log
-logs/
-
-# Archivos de IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-
-# Variables de entorno
-.env
+```
+# Environment variables
 .env.local
+.env.*
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Archivos grandes de chat
-chat-export-*.json
-project_summary.txt
-
-# Rust build artifacts
-**/target/
-
-# Backtest reports (optional, but can be large)
-cip-lite/backtest_reports/
+# Reports and generated files
+cip-lite/reports/backtest_metrics.json
+cip-lite/reports/backtest_results.png
+cip-lite/reports/backtest_trades.csv
+```

@@ -1,14 +1,14 @@
 {
-  "total_trades": 27,
-  "winning_trades": 18,
-  "losing_trades": 9,
+  "total_trades": 36,
+  "winning_trades": 24,
+  "losing_trades": 12,
   "win_rate": 66.66666666666666,
-  "avg_win": 4.807589657547059,
-  "avg_loss": 2.505591268756051,
-  "profit_factor": 1.9187445763785245,
-  "expectancy": 2.3698626821126876,
-  "sharpe_ratio": 8.583180725163151,
-  "max_drawdown": -7.387568445764751,
-  "total_return": 1.286592483191673,
-  "final_capital": 10128.659248319167
+  "avg_win": 4.807589657547057,
+  "avg_loss": 2.5055912687560524,
+  "profit_factor": 1.9187445763785227,
+  "expectancy": 2.3698626821126862,
+  "sharpe_ratio": 8.58318072516315,
+  "max_drawdown": -7.387568445764783,
+  "total_return": 1.7191246724765685,
+  "final_capital": 10171.912467247657
 }
