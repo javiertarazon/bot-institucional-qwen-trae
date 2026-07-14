@@ -151,7 +151,28 @@ class ClineBrain:
                               df: pd.DataFrame) -> str:
         """Genera un resumen legible para el usuario"""
         
-        summary = f"""
+        if signal.signal == "HOLD":
+            summary = f"""
+🧠 **Cline Brain - Decisión de Trading**
+==========================================
+Símbolo: {signal.symbol}
+Señal: **{signal.signal}** (confianza: {signal.confidence:.1%})
+
+📊 **Análisis de Mercado**
+- Tendencia: {analysis.trend.upper()}
+- Volatilidad: {analysis.volatility:.2%}
+- Volumen: {analysis.volume_profile.upper()}
+
+💡 **Recomendación**: Mantenerse al margen, esperar mejores oportunidades.
+        """
+        else:
+            rr_ratio = 0
+            if signal.stop_loss and signal.take_profit and signal.entry_price:
+                risk = abs(signal.entry_price - signal.stop_loss)
+                reward = abs(signal.take_profit - signal.entry_price)
+                rr_ratio = reward / risk if risk > 0 else 0
+            
+            summary = f"""
 🧠 **Cline Brain - Decisión de Trading**
 ==========================================
 Símbolo: {signal.symbol}
@@ -166,7 +187,7 @@ Precio entrada: ${signal.entry_price:,.2f}
 🛡️ **Gestión de Riesgo**
 - Stop Loss: ${signal.stop_loss:,.2f}
 - Take Profit: ${signal.take_profit:,.2f}
-- Ratio Riesgo/Beneficio: 1:{(signal.take_profit - signal.entry_price)/(signal.entry_price - signal.stop_loss):.1f}
+- Ratio Riesgo/Beneficio: 1:{rr_ratio:.1f}
 
 💰 **Tamaño de Posición Sugerido**
 - Basado en Kelly variable y volatilidad

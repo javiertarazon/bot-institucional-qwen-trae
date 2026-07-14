@@ -7,13 +7,13 @@
 """
 
 import sys
-sys.path.insert(0, '/home/javier/Público/proyectos desarrollo/bot-institucional-qwen-trae/cip-lite')
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
 
 import numpy as np
 import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
-from pathlib import Path
 from datetime import datetime, timedelta
 import argparse
 import json
@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 
 from services.risk.dynamic_risk_manager import DynamicRiskManager
 
-OUTPUT_DIR = Path('/home/javier/Público/proyectos desarrollo/bot-institucional-qwen-trae/cip-lite/reports')
+OUTPUT_DIR = Path(__file__).parent / 'reports'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 INITIAL_CAPITAL = 10000.0

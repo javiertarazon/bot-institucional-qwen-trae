@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger("Main")
 
 # Módulos del sistema
-from services.config import ConfigManager
+# Nota: ConfigManager no existe en services.config, se usa ConfigHotReload directamente
 from services.cline_trading_bot import ClineTradingBot
 
 # ==================== HOT-RELOAD CONFIG ====================
