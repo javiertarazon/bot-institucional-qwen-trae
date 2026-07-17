@@ -179,6 +179,60 @@ class BacktestEngine:
         
         return equity
 
+    def _calculate_streaks(self, trades: List[Dict]) -> Dict[str, int]:
+        """Calcula rachas de operaciones ganadoras y perdedoras"""
+        completed_trades = [t for t in trades if t['type'] == 'SELL']
+        if not completed_trades:
+            return {'current_win_streak': 0, 'current_loss_streak': 0, 'max_win_streak': 0, 'max_loss_streak': 0}
+        
+        win_streak = 0
+        loss_streak = 0
+        max_win_streak = 0
+        max_loss_streak = 0
+        
+        for trade in completed_trades:
+            if trade['pnl'] > 0:
+                win_streak += 1
+                loss_streak = 0
+                max_win_streak = max(max_win_streak, win_streak)
+            else:
+                loss_streak += 1
+                win_streak = 0
+                max_loss_streak = max(max_loss_streak, loss_streak)
+        
+        return {
+            'current_win_streak': win_streak if completed_trades[-1]['pnl'] > 0 else 0,
+            'current_loss_streak': loss_streak if completed_trades[-1]['pnl'] <= 0 else 0,
+            'max_win_streak': max_win_streak,
+            'max_loss_streak': max_loss_streak
+        }
+    
+    def _catalog_trade_conditions(self, trades: List[Dict]) -> Dict[str, List[Dict]]:
+        """Cataologa condiciones de operaciones ganadoras y perdedoras"""
+        winning = [t for t in trades if t['type'] == 'SELL' and t['pnl'] > 0]
+        losing = [t for t in trades if t['type'] == 'SELL' and t['pnl'] <= 0]
+        
+        return {
+            'winning_conditions': [
+                {
+                    'date': t['date'].isoformat() if isinstance(t['date'], datetime) else str(t['date']),
+                    'pnl': t['pnl'],
+                    'price': t['price'],
+                    'return_pct': t['pnl'] / t.get('entry_cost', t['proceeds'])
+                }
+                for t in winning
+            ],
+            'losing_conditions': [
+                {
+                    'date': t['date'].isoformat() if isinstance(t['date'], datetime) else str(t['date']),
+                    'pnl': t['pnl'],
+                    'price': t['price'],
+                    'return_pct': t['pnl'] / t.get('entry_cost', t['proceeds'])
+                }
+                for t in losing
+            ]
+        }
+    
     def _calculate_results(self) -> Dict[str, Any]:
         """Calcula métricas de rendimiento"""
         equity_series = pd.Series(self.equity_curve)
@@ -188,6 +242,11 @@ class BacktestEngine:
         winning_trades = [t for t in self.trades if t['type'] == 'SELL' and t['pnl'] > 0]
         losing_trades = [t for t in self.trades if t['type'] == 'SELL' and t['pnl'] <= 0]
         win_rate = len(winning_trades) / (len(winning_trades) + len(losing_trades)) if (len(winning_trades) + len(losing_trades)) > 0 else 0
+
+        # Profit Factor
+        total_wins = sum(t['pnl'] for t in winning_trades) if winning_trades else 0
+        total_losses = abs(sum(t['pnl'] for t in losing_trades)) if losing_trades else 1
+        profit_factor = total_wins / total_losses if total_losses > 0 else 0
 
         # Rendimiento total y anualizado
         total_return = (self.equity_curve[-1] - self.equity_curve[0]) / self.equity_curve[0]
@@ -221,6 +280,10 @@ class BacktestEngine:
                 holding_times.append(delta.days)
         
         avg_holding_time = np.mean(holding_times) if len(holding_times) > 0 else 0
+        
+        # Calcular rachas y condiciones
+        streaks = self._calculate_streaks(self.trades)
+        conditions = self._catalog_trade_conditions(self.trades)
 
         return {
             'equity_curve': self.equity_curve,
@@ -228,6 +291,7 @@ class BacktestEngine:
             'winning_trades': len(winning_trades),
             'losing_trades': len(losing_trades),
             'win_rate': win_rate,
+            'profit_factor': profit_factor,
             'total_return': total_return,
             'annualized_return': annualized_return,
             'sharpe_ratio': sharpe_ratio,
@@ -237,7 +301,13 @@ class BacktestEngine:
             'avg_win': avg_win,
             'avg_loss': avg_loss,
             'avg_holding_time_days': avg_holding_time,
-            'holding_times': holding_times
+            'holding_times': holding_times,
+            'current_win_streak': streaks['current_win_streak'],
+            'current_loss_streak': streaks['current_loss_streak'],
+            'max_win_streak': streaks['max_win_streak'],
+            'max_loss_streak': streaks['max_loss_streak'],
+            'winning_trade_conditions': conditions['winning_conditions'],
+            'losing_trade_conditions': conditions['losing_conditions']
         }
 
 

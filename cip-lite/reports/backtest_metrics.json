@@ -1,0 +1,14 @@
+{
+  "total_trades": 27,
+  "winning_trades": 18,
+  "losing_trades": 9,
+  "win_rate": 66.66666666666666,
+  "avg_win": 4.807589657547059,
+  "avg_loss": 2.505591268756051,
+  "profit_factor": 1.9187445763785245,
+  "expectancy": 2.3698626821126876,
+  "sharpe_ratio": 8.583180725163151,
+  "max_drawdown": -7.387568445764751,
+  "total_return": 1.286592483191673,
+  "final_capital": 10128.659248319167
+}

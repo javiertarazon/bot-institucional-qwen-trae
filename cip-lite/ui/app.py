@@ -1,6 +1,6 @@
 """
-CIP Lite Dashboard - Streamlit UI
-Dashboard principal para visualizar noticias, sentimiento y señales.
+CIP Lite Dashboard - Streamlit UI (Admin Only)
+Dashboard privado con autenticación para trading institucional.
 """
 import streamlit as st
 import sys
@@ -8,6 +8,21 @@ import os
 from datetime import datetime, timedelta
 import pandas as pd
 import plotly.express as px
+import json
+import hashlib
+import hmac
+
+# Add parent directory to path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from services.ingestion.rss_ingestor import RSSIngestor
+from services.agents import SentimentAnalyzer
+from services.features.store import FeatureStore
+from services.onchain import OnChainValidator
+from services.backtesting.engine import BacktestEngine, BacktestConfig, HistoricalData
+from services.cline_brain import ClineBrain, ClineTradeExecutor
+from services.risk.dynamic_risk_manager import DynamicRiskManager
+from services.metrics import TradingMetrics
 
 # Añadir el directorio padre al path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
